@@ -18,6 +18,11 @@
     color: #fff;
 }
 
+.delete-btn {
+    background: #b97a7a;
+    color: #000;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 40% 30% auto;
