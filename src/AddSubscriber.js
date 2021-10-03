@@ -15,7 +15,7 @@ class AddSubscriber extends Component {
 
     inputChangedHandler = (e) => {
         const state = this.state;
-        this.state[e.target.name] = e.target.value;
+        state[e.target.name] = e.target.value;
         this.setState(state);
     }
 
